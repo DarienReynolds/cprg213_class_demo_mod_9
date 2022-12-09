@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--The Head is filled with meta tags, the title and the link to the stylesheet-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learning javascript">
+    <meta name="author" content="Darien Reynolds">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Counter</title>
+    <link id="stylesheets" rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="everything" id="everything">
+        <p id="backtext"></p>
+    </div>
+    <!--This div class will seperate the background of the whole page from the just the set needed-->
+    <div class="buttoned" id="buttoned">
+        <button id="button_plus" class="button_plus">Increase</button>
+        <p id="number_displayed">0</p>
+        <button id="button_minus" class="button_minus">Decrease</button>
+    </div>
+    <div class="reset" id="reset">
+        <button onclick="resetMenu()" class="dropbtn">Reset Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a><button id="backreset">Reset Background</button></a>
+          <a><button id="themeReset">Reset Theme</button></a>
+          <a><button id="numberReset">Reset Number</button></a>
+        </div>
+    </div>
+    <div>
+        <button class="custom_num" id="custom_num">Set Number</button>
+    </div>
+    <script src="scripts\script.js"></script>
+</body>
+
+</html>

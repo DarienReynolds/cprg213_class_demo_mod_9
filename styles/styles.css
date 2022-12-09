@@ -1,0 +1,82 @@
+/*centers the whole set and gives both the background and border a colour*/
+
+
+/*centers the buttons and gives shape and colour to the borders and background*/
+.buttoned button,
+p {
+    align-items: center;
+    align-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: larger;
+    text-align: center;
+    background-color: rgba(5, 195, 221, 1);
+    border: 1px solid rgba(5, 19, 255, 1);
+    border-radius: 50px;
+    width: 20%;
+}
+
+.everything {
+    width: 100%;
+    height: 100px;
+}
+
+
+/*reset menu dropdown */
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    float: right;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+    float: right;
+}
+
+.custom_num {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
